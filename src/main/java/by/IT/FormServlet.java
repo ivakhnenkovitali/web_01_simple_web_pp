@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Arrays;
-
 @WebServlet(name = "FormServlet", urlPatterns = "/form")
 public class FormServlet extends HttpServlet {
     @Override
