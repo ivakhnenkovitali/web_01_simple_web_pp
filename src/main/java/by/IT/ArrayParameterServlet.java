@@ -16,7 +16,4 @@ public class ArrayParameterServlet extends HttpServlet {
         PrintWriter writer= resp.getWriter();
         Arrays.stream(parames).forEach(it -> writer.write("<h1>"+ it + "</h1"));
     }
-
-
-
 }
