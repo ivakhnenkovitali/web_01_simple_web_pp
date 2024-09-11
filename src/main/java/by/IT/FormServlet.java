@@ -28,6 +28,5 @@ public class FormServlet extends HttpServlet {
                     .forEach(it -> writer.write( "<li" + it + "</li>"));
             writer.write( "</ul>");
         }
-
     }
 }
