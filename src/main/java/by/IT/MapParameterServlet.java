@@ -17,4 +17,4 @@ public class MapParameterServlet extends HttpServlet {
         parameterMap.forEach((k, v) -> writer.write("<h1>" + k + "" + Arrays.toString(v) + "</h1>"));
     }
 }
-///−−•• •− •−−• −•−− − −−−•• −−−−− −−−•• −−−−−
+
