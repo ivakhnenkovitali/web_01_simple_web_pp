@@ -1,5 +1,4 @@
 package by.IT;
-
 import javax.security.sasl.SaslException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,7 +8,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Hashtable;
-
 @WebServlet(name = "arrayParameterServlet", urlPatterns = "/arrParams")
 public class ArrayParameterServlet extends HttpServlet {
     @Override
