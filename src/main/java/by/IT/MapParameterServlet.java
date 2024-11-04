@@ -1,5 +1,4 @@
 package by.IT;
-
 import javax.security.sasl.SaslException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,7 +8,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Map;
-
 @WebServlet(name = "MapParameterServlet", urlPatterns = "/mapParam")
 public class MapParameterServlet extends HttpServlet {
     @Override
@@ -19,6 +17,4 @@ public class MapParameterServlet extends HttpServlet {
         parameterMap.forEach((k, v) -> writer.write("<h1>" + k + "" + Arrays.toString(v) + "</h1>"));
     }
 }
-
-
 ///−−•• •− •−−• −•−− − −−−•• −−−−− −−−•• −−−−−
